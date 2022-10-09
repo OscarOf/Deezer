@@ -1,5 +1,6 @@
 body{
     font-family: Roboto,Open Sans,Arial,sans-serif;
+    background: linear-gradient(126.05deg,rgb(241 42 42/90%) 25.95%,#bf1ceb 44.46%,#06ad57 65.35%,rgb(6 173 87/60%) 76.7%);
 }
 .tarjetas{
     text-align:center;
@@ -8,7 +9,6 @@ body{
     margin-right: auto;
     margin-left: auto;
     margin-top: 40px;
-    border: 1px solid black;
     border-radius: 20px;
     color: white;
     background: linear-gradient(57.8deg,#6b42b4 9.75%,#943aab 95.44%);
@@ -21,4 +21,7 @@ button{
     width: 350px;
     color: white;
     background-color: black;
+}
+.segundo{
+    
 }
