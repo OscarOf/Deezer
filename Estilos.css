@@ -1,0 +1,207 @@
+*{padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;}
+
+    body {
+    background: linear-gradient(126.05deg,rgb(241 42 42/90%) 25.95%,#9c2fbd 44.46%,#06ad57 65.35%,rgb(6 173 87/60%) 76.7%);
+ 
+     }
+     
+     /*contenedor del header */
+     .caja_padre {
+     margin:20px 54px;
+     display: flex;
+     justify-content: space-between;
+    
+      }
+
+
+      a p {
+      font-size: 12px;
+      color: #ffffff;
+    
+     
+      }
+
+      /*icono fa-angle-right  */
+     i{
+     font-size: 9px;
+    
+      } 
+
+     .logo-tigo{width: 20PX;
+     height: 20px;
+     margin-top: 15px;
+
+     }
+
+     /*contenedor del logo de tipo*/
+
+     .tigo {
+     width: 17vw;
+     height: 15vh;
+     border: 1px solid rgb(102, 101, 101);
+     text-align: center;
+     padding: 20px 10px;
+     border-radius: 10px 10px;
+     }
+
+     .logo img{
+     width: 8vw;
+     height: 4vh;
+     margin-right: 100px;
+     margin-top: 20px;
+     }
+       
+      /*contenedor de iniciar sesion*/
+     .entrada{
+     border-radius: 40px;
+     padding: 12px 12px;
+     border:1px solid rgb(156, 154, 154);
+     border-bottom: 2px solid rgb(255, 255, 255);
+     border-top: 2px solid #ffffff;
+     margin-right: 30px;
+     }
+
+      a {
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 900;
+     text-decoration: none;
+      }
+      
+      a .entrada{
+     color: #ffffff;
+     font-weight: 900;
+     font-size: 11px;
+     font-family: Arial, Helvetica, sans-serif;
+     text-transform: uppercase;
+      }
+      
+      /*contenedor porque elegir Deezer*/
+      .segunda-caja{
+       background-color: #121216;
+      }
+
+    
+      .elegir{
+      color: #ffffff;
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 40px;
+      margin-top: 10px;
+      
+       }
+ 
+      .parrafo1{
+      text-align: center;
+      width: 41vw;
+      height: 15vh;
+
+
+      }
+      .parrafo1{
+      font-family:Arial, Helvetica, sans-serif;
+      font-size: 16px roboto;
+      margin-left: 30%;
+      margin-top: 20px;
+      color: #bebec7;
+     
+
+      }
+
+      /*  contenedor de descubrir otras funciones*/
+
+      .descubre{
+      background-color: #ffffff;
+      width: 60vh;
+      line-height: 10vh;
+      margin-left: 37%;
+      height: 10vh;
+      text-transform: uppercase;
+      font-size: 14px;
+      border-radius: 30px;
+      
+     }
+     a .descubre{
+        color: #000000;
+        text-align: center;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', Verdana, sans-serif
+      }
+      
+
+      /*contenedor de vive la experiencia con flow*/
+     .experiencia{
+       margin-top: 4%;
+       font-size: 28px;
+       color: #ffffff;
+       font-family: Arial, Helvetica, sans-serif;
+       text-align: center;
+     }   
+
+     .parrafo2{
+      font-family:Arial, Helvetica, sans-serif;
+      font-size: 15px;
+      margin-left: 30%;
+      margin-top: 20px;
+      color: #bebec7;
+     }
+
+     .parrafo2{
+      text-align: center;
+      width: 41vw;
+      height: 10vh;
+
+      
+     }
+
+      /*imagen de flow*/
+     .flow img{
+      margin-bottom: 90px;
+      }
+
+
+     .flow{
+      width:80vw;
+      height: auto;
+      margin-left: 10%;
+      }
+
+
+      /*contenedor descubre-flow */
+     .descubre-flow{
+      background-color: #ffffff;
+      width: 13vw;
+      margin-top: 20px;
+      border-radius: 40px;
+      line-height: 10vh;
+      margin-left: 43%;
+      height: 9vh;
+      }
+      
+      a .descubre-flow{
+        text-transform: uppercase;
+        text-align: center;
+     font-size: 15px;
+     color: #000000;
+     }
+     
+     
+     .parrafo3{
+       text-align: center;
+       width: 38vw;
+     margin-top: 10px;
+     height: 10vh;
+     font-family:Arial, Helvetica, sans-serif;
+     font-size: 17px;
+     margin-left: 30%;
+     color: #bebec7;
+    }
+
+    /*contenedor de no tienes internet ? no hay problema*/
+     .internet{
+     margin-top: 40px;
+     font-size: 28px;
+     color: #ffffff;
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+     }
