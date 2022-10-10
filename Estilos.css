@@ -364,3 +364,10 @@ a .informacion{
     font-size: 17px;
     color: #bebec7; 
 }
+
+.Desplegable{
+    width: 700px; 
+    margin: auto;
+    margin-top: 20px;
+    
+}
