@@ -6,7 +6,8 @@
 
 body {
     background: linear-gradient(126.05deg, rgb(241 42 42/90%) 25.95%, #9c2fbd 44.46%, #06ad57 65.35%, rgb(6 173 87/60%) 76.7%);
-
+    font-family: Roboto,Open Sans,Arial,sans-serif;
+    background: black;
 }
 
 /*contenedor del header */
@@ -17,6 +18,29 @@ body {
 
 }
 
+.Tarjetas{
+    text-align:center;
+    border:black;
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    background: linear-gradient(57.8deg,#6b42b4 9.75%,#943aab 95.44%);
+}
+.Segundo{
+    background: linear-gradient(53.13deg,#dc4c11 10.71%,#feab2e);
+}
+button{
+    border-radius: 50px;
+    height: 50px;
+    width: 350px;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+}
 
 a p {
     font-size: 12px;
@@ -150,13 +174,24 @@ a .descubre {
     margin-top: 20px;
     color: #bebec7;
 }
-
-.parrafo2 {
+.Caratulas{
+    margin-top: 60px;
+    color: white;
     text-align: center;
-    width: 41vw;
-    height: 10vh;
+    
 
 
+}
+.Tercero{
+    background: linear-gradient(53.13deg,#201f1e 10.71%,#1f1d1d);
+}
+
+.Cuarto{
+    background: linear-gradient(69.06deg,#b84fdd -26.76%,#4965f4 44.6%,#2efb74 132.54%);
+}
+.Links{
+    color: rgb(201, 197, 197); 
+    text-decoration:underline;
 }
 
 /*imagen de flow*/
@@ -201,6 +236,9 @@ a .descubre-flow {
     margin-left: 30%;
     color: #bebec7;
 }
+.Img{
+    border-radius: 10px;
+}
 
 /*contenedor de no tienes internet ? no hay problema*/
 .internet {
@@ -209,4 +247,14 @@ a .descubre-flow {
     color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+}
+
+.Caratula{
+    margin: auto;
+    width: 265px;
+    height: 330px;    
+}
+.Contenedor{
+    display: flex;
+    
 }
