@@ -41,3 +41,20 @@ button{
     color: rgb(201, 197, 197); 
     text-decoration:underline;
 }
+.Caratulas{
+    text-align: center;
+}
+
+.Contenedor{
+    display: flex;    
+}
+
+.Caratula{
+    margin: auto;
+    width: 265px;
+    height: 330px;    
+}
+
+.Img{
+    border-radius: 10px;
+}
