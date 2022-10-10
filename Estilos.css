@@ -355,3 +355,12 @@ a .informacion{
     font-size: 13px;
     color: #000000;
 }
+
+.Parrafo6{
+    width: 46vw;
+    margin-top: 10px;
+    height: 15vh;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #bebec7; 
+}
