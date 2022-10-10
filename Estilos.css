@@ -258,3 +258,23 @@ a .descubre-flow {
     display: flex;
     
 }
+
+.Streaming{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-left: 30%;
+    font-size: 40px;
+    width: 40vw;
+}
+
+.Parrafo4{
+    text-align: center;
+  width: 46vw;
+  margin-top: 10px;
+  height: 15vh;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  margin-left: 28%;
+  color: #bebec7;
+
+}
