@@ -3,18 +3,23 @@
     box-sizing: border-box;}
 
     body {
-    background: linear-gradient(126.05deg,rgb(241 42 42/90%) 25.95%,#9c2fbd 44.46%,#06ad57 65.35%,rgb(6 173 87/60%) 76.7%);
+      background: #121216;
+  
  
      }
      
      /*contenedor del header */
      .caja_padre {
-     margin:20px 54px;
-     display: flex;
-     justify-content: space-between;
-    
-      }
-
+      margin:20px 54px;
+      display: flex;
+      justify-content: space-between;
+      border-radius: 10px;
+      
+      background: #2F7336;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #351414, #2F7336);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #522221, #1a241b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      
+    }
 
       a p {
       font-size: 12px;
@@ -205,3 +210,149 @@
      font-family: Arial, Helvetica, sans-serif;
      text-align: center;
      }
+
+     .escuchar{
+      background-color: #ffffff;
+      height: 9vh;
+      width: 16vw;
+      margin-top: 20px;
+      border-radius: 40px;
+      line-height: 10vh;
+      margin-left: 42%;
+    }
+  
+    a .escuchar{
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 15px;
+      color: #000000;
+    }
+    
+    .explorar{background-color: #ffffff;
+      width: 20vw;
+      margin-top: 30px;
+      border-radius: 40px;
+      line-height: 10vh;
+      margin-left: 40%;
+      height: 9vh;}
+
+     a .explorar{
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 15px;
+      color: #000000;
+     }
+    
+     .lineas{
+       display: flex;
+       justify-content: center;
+       margin-top:20px ;
+     }
+     .lineas p{
+       color: #ffffff;
+       font-size: 15px;
+       font-weight: 900;
+       text-transform: uppercase;
+       font-family: Arial, Helvetica, sans-serif;
+     }
+     hr{
+       border-color: #615b5b;
+       padding-top: 0px;
+       margin: 10px 10px;
+       width: 20vw;
+       height: 0px;
+     }
+     
+     .biblioteca{
+      margin-top: 40px;
+      width: 45vw;
+      margin-left: 27%;
+      
+      font-size: 40px;
+      color: #ffffff;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+     }
+
+     .parrafo5{
+    text-align: center;
+    width: 46vw;
+    margin-top: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-left: 30%;
+    color: #bebec7;
+     }
+
+     .vector{
+       width: 45vw;
+       margin-left:29%;
+     }.escuchar{
+      background-color: #ffffff;
+      height: 9vh;
+      width: 16vw;
+      margin-top: 20px;
+      border-radius: 40px;
+      line-height: 10vh;
+      margin-left: 42%;
+    }
+  
+    a .escuchar{
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 15px;
+      color: #000000;
+    }
+    
+    .explorar{background-color: #ffffff;
+      width: 20vw;
+      margin-top: 30px;
+      border-radius: 40px;
+      line-height: 10vh;
+      margin-left: 40%;
+      height: 9vh;}
+
+     a .explorar{
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 15px;
+      color: #000000;
+     }
+    
+     .lineas{
+       display: flex;
+       justify-content: center;
+       margin-top:20px ;
+     }
+      
+      
+     .lineas p{
+       color: #ffffff;
+       font-size: 15px;
+       font-weight: 900;
+       text-transform: uppercase;
+       font-family: Arial, Helvetica, sans-serif;
+     }
+     hr{
+       border-color: #615b5b;
+       padding-top: 0px;
+       margin: 10px 10px;
+       width: 20vw;
+       height: 0px;
+     }
+
+
+     .informacion{background-color: #ffffff;
+      width: 10vw;
+      border-radius: 40px;
+      line-height: 10vh;
+      margin-left: 47%;
+      height: 9vh;}
+
+      a .informacion{
+        text-transform: uppercase;
+        text-align: center;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 13px;
+        color: #000000;
+       }
