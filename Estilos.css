@@ -371,3 +371,23 @@ a .informacion{
     margin-top: 20px;
     
 }
+
+.Pinferior{
+    width: 640px;
+    height: 40px;
+    margin: auto;
+    margin-top: 40px;
+    color: white;
+    border: solid 1px white;
+    border-radius: 50px;
+    display: flex;
+}
+
+.Interior{
+    margin-left: 210px; 
+    margin-top:auto;  
+    border-radius: 50px; 
+    width: 50px; 
+    height: 30px; 
+    background: linear-gradient(69.06deg,#b84fdd -26.76%,#4965f4 44.6%,#2efb74 132.54%);
+}
